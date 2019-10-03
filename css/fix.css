@@ -1,0 +1,266 @@
+	/*
+* Reset CSS
+*/
+.body * {
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC;
+}
+
+.container {
+	margin: 0 auto;
+	background: #FFF;
+	width: 999px;
+}
+
+/*
+* Header
+*/
+
+.header{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.logo {
+	margin: 0 40%;
+	width: 40%;
+	border-radius: 75px;
+}
+
+
+
+/*
+* Menu Navigation
+*/
+
+.navigator {
+	clear: both;
+	margin:0 1.5%;
+	width: 97%;
+	height: 40px;
+	display: block;
+	background-color: #1b75bb;
+	border-radius: 5px;
+}
+
+.navigator ul {
+	list-style-type: none;
+}
+
+.navigator ul li {
+	text-align: center;
+	color: #f1f1f1;
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	line-height: 40px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.navigator ul li > a:link{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+.navigator ul li > a:hover {
+	background: #F1F1F1;
+  	color: #333;
+  	border-bottom: 2px solid red;
+}
+
+.navigator ul li > a:active {
+	background: white;
+	color: #333;
+}
+
+.navigator ul li > a:visited {
+	background: yellow;
+	border-bottom: 2px solid red!important;
+}
+
+.navigator * {
+	transition: all ease 0.4s;
+}
+
+
+/*
+* Slider
+*/
+.slider > img {
+	height: 220px;
+}
+
+.slider {
+	
+	position: relative;
+}
+
+.slider > button {
+	border-radius: 15%;
+}
+
+#prev {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 2%;
+	top: 13%;
+	line-height: 0.5;
+	border-radius: 50%;
+}
+
+#next {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 2.5%;
+	top: 13%;
+	line-height: 0.5;
+	border-radius: 50%;
+}
+
+/*
+* Main
+*/
+
+.main {
+	margin:10px 1.5%;
+	width: 97%;
+	height: 800px;
+}
+
+/* Main -> room info */
+
+.content-search {
+	height: 700px;
+}
+
+.form {
+	height: 100%;
+	padding: 10px;
+}
+
+.result-info {
+	height: 100%;
+	border-left: black solid 1.5px;
+}
+
+/* Main -> Login Success- Info page */
+.main .system-info .info-page-1st{
+	margin-left: 12%;
+}
+.main .info-page {
+	background-color: #CDC9C9;
+	border: white solid 1px;
+	height: 300px;
+	width: 25%;
+}
+
+.main .info-page > p {
+	line-height: 0.8;
+}
+
+.main .info-page > img {
+	width: 45%;
+}
+.main .map > img {
+	width: 70%;
+}
+.hoptac > img {
+	width: 24%;
+	padding: 0 20px;
+}
+
+.qc > img{
+	width: 100%;
+}
+
+#banner {
+	width: 100%;
+}
+
+.list {
+	background: #DDDDDD;
+}
+
+.link-icon > img{
+	width: 100%;
+	height: 270px;
+	margin-bottom: 10px;
+}
+
+.icon-list {
+	padding: 15px 3%;
+	height: 250px;
+}
+
+.icon-list > img {
+	height: 20%;
+}
+
+.main .list {
+	border-bottom: white 1px solid;
+	line-height: 1.2;
+}
+
+/* Main -> Login Success-info */
+
+.login-success {
+	border-bottom: white solid 1px;
+	background-color: #1b75bb;
+	padding: 15px;
+	height: 300px;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.login-success > p {
+	line-height: 0.5;
+}
+
+.main > .login-success img {
+	width: 50%;
+	height: 25%;
+}
+
+
+/* Main -> register-form */
+
+.regiser-form {
+	padding: 0 20%;
+}
+
+/* Main -> Personal -> content */
+
+.per_content {
+	height: 100%;
+	border-left: white solid 1px;
+	padding: 5px 15px;
+}
+
+/*
+* Bottom
+*/
+
+.bottom {
+	height: 50px;
+	padding: 2px 3%;
+	background-color: #1b75bb;
+	color: #FFF;
+	margin: 0 auto;
+	width: 999px;
+}
+
+
+/*CSS trang quan tri*/
+
+.list-report {
+	padding: 5% 5%; 
+	height: 200px; 
+	background-color: yellow; 
+	border-radius: 2%; 
+	border: white 2px solid;
+}
